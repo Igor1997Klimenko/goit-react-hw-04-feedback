@@ -14,17 +14,18 @@ const App = () => {
  const feedbackTypes = {good, neutral, bad};
 
   const addFeedback = option => {
+    const s = (state => state + 1)
     switch (option) {
       case 'good':
-        setGood(state => state + 1)
+        setGood(s)
         break;
     
       case 'neutral':
-        setNeutral(state => state + 1)
+        setNeutral(s)
         break;
     
       case 'bad':
-        setBad(state => state + 1)
+        setBad(s)
         break;
       
       default:
