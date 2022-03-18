@@ -23,7 +23,7 @@ const App = () => {
       case 'neutral':
         setNeutral(s)
         break;
-    
+      
       case 'bad':
         setBad(s)
         break;
