@@ -1,0 +1,16 @@
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.Container{
+    text-align: center;
+    margin: auto;
+    border: 2px solid #00000012;
+    width: fit-content;
+    position: relative;
+    top: 50px;
+    padding: 20px;
+    background: #f99e9e;
+    box-shadow: 0 0 5px 5px rgb(0 0 0 / 20%);
+}
